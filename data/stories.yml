@@ -1,0 +1,85 @@
+version: "3.1"
+
+stories:
+
+- story: provide 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_explore
+  - action: utter_provide
+
+- story: listing PackageDetails only
+  steps:
+  - intent: Tour_Package
+  - action: utter_Show_PackageDetails
+  - action: utter_travel_agency
+
+
+- story: listing place details only
+  steps:
+  - intent: tourist_place
+  - action: utter_TouristPlace_Kerala
+  - action: utter_travel_agency
+
+
+- story: tourist_package_head_individual
+  steps:
+  - intent: tourist_package_head
+  - action: action_package_individual
+  - action: utter_travel_agency
+
+
+- story: listing Alapuzha
+  steps:
+  - intent: get_attractions_Alappuzha
+  - action: utter_get_attractions_Alappuzha
+
+- story: listing Munnar
+  steps:
+  - intent: get_attractions_Munnar
+  - action: utter_get_attractions_Munnar
+  
+- story: listing Kochi
+  steps:
+  - intent: get_attractions_Kochi
+  - action: utter_get_attractions_Kochi
+    
+- story: listing Wayanad
+  steps:
+  - intent: get_attractions_Wayanad
+  - action: utter_get_attractions_Wayanad
+
+- story: listing Vagamon
+  steps:
+  - intent: get_attractions_Vagamon
+  - action: utter_get_attractions_Vagamon
+  
+- story: listing Kovalam
+  steps:
+  - intent: get_attractions_Kovalam
+  - action: utter_get_attractions_Kovalam
+
+- story: listing Idukki
+  steps:
+  - intent: get_attractions_Idukki
+  - action: utter_get_attractions_Idukki
+  
+- story: listing Kozhikode
+  steps:
+  - intent: get_attractions_Kozhikode
+  - action: utter_get_attractions_Kozhikode
+
+- story: listing Thekkady
+  steps:
+  - intent: get_attractions_Thekkady
+  - action: utter_get_attractions_Thekkady
+
+- story: listing Varkala
+  steps:
+  - intent: get_attractions_Varkala
+  - action: utter_get_attractions_Varkala 
+
+
+
+

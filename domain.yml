@@ -1,0 +1,455 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - tourist_place
+  - tourist_package_head
+  - how_explore
+  - Tour_Package
+  - mood_Thankyou
+  - get_attractions_Alappuzha
+  - get_attractions_Varkala
+  - get_attractions_Thekkady
+  - get_attractions_Kovalam
+  - get_attractions_Kochi
+  - get_attractions_Kozhikode
+  - get_attractions_Idukki
+  - get_attractions_Vagamon
+  - get_attractions_Wayanad
+  - get_attractions_Munnar
+
+
+actions:
+  - action_package_individual
+
+
+entities:
+  - place
+
+
+
+responses:
+
+  utter_pleasure:
+  - text: "It is my Pleasure to help you"
+    image: "https://cdn.xxl.thumbs.canstockphoto.com/im-so-happy-to-help-two-businesspeople-shaking-hands-im-so-happy-to-help-two-businesspeople-stock-photo_csp104751491.jpg"
+
+  utter_goodbye:
+  - text: "Thank you for chat with me.Have a great day."
+
+  utter_iamabot:
+  - text: "I am a tourbot, by kerala travel agency.For further details contact our travel agency."
+  
+  utter_greet:
+  - text: "Hey! welcome to tourbot! by Kerala Travel Agency.Lets explore KERALA THE GODS OWN COUNTRY"
+
+  utter_Show_PackageDetails:
+  - text: "Kerala holiday package deals
+  
+    •   Alleppey	-	Rs.2999/head	-	3 days
+    
+    •   Munnar	-	Rs.4999/head	-	4 days
+    
+    •   Kochi	-	Rs.4999/head	-	4 days
+    
+    •   Wayananad	-	Rs.5999/head	-	5 days 
+    
+    •   Vagamon	-	Rs.4999/head	-	3 days
+    
+    •   Kovalam	-	Rs.4999/head	-	4 days  
+    
+    •   Kozhikode	-	Rs.1999/head	-	2 days
+    
+    •   Thekkady	-	Rs.1999/head	-	2 days
+    
+    •   Varkala	-	Rs.1999/day	-	1 day
+    
+    •   Idukki	-	Rs.4999/head	-	5 days"  
+
+  utter_TouristPlace_Kerala:
+  - text: "Here See the 10 Best Tourist Places to Visit in Kerala in holiday time 
+  
+    •   Alleppey	-	India’s Own version of Venice 
+    
+    •   Munnar	-	Best for one day trip 
+    
+    •   Kochi	-	Gateway to Kerala 
+    
+    •   Wayananad	-	Prettiest Place 
+    
+    •   Vagamon	-	An ideal summer destination in Kerala 
+    
+    •   Kovalam	-	Sand, Surf, and Sea  
+    
+    •   Kozhikode	-	Charming Beauty with Ancient Legacy 
+    
+    •   Thekkady	-	Land of the Wild and Spices 
+    
+    •   Varkala	-	Quaint Hamlet by the Sea 
+    
+    •   Idukki	-	Mountainous Hills and Dense Forests"
+
+
+  utter_provide:
+  - text: "We provide best tourist packages to explore kerala."
+
+  utter_explore:
+  - text: "come and see the beauty of kerala.Then you will be very happy"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+
+
+
+
+  utter_get_attractions_Alappuzha:
+  - text: "Best Tourist Attractions in Alappuzha
+  
+    • Alappuzha Beach
+    
+    • Krishnapuram Palace
+    
+    • Marari Beach – home to local fishermen and their villages
+    
+    • Revi Karunakaran Museum
+    
+    • Marari Beach
+    
+    • Punnamada Lake
+    
+    • Pathiramanal Island
+    
+    • Sri Krishna Temple in Ambalappuzha
+    
+    • The Snake Boat Race in Alleppey is another crowd-puller
+
+
+  Best time to visit	:	August to February, enjoys the perfect weather conditions to plan your trip to Kerala. While the second Saturday of August is the occasion of the annual snake boat race competition, also known as Nehru Boat Race.
+
+
+  How to reach:
+    
+    • Nearest Airport– Kochi International Airport
+
+    • Nearest Railway Station– Alleppey Railway Station"
+    image: "https://www.keralatourism.org/images/destination/mobile/alappuzha20160801052013_60_1.jpg"
+
+
+
+  utter_get_attractions_Munnar:
+  - text: "Best Tourist Attractions in Munnar
+  
+    • Eravikulam National Park, the exclusive home of Nilgiri Tahr in the lush Western Ghats
+    
+    • Mattupetty Dam
+    
+    • Anamudi Peak
+    
+    • Tea Museum
+    
+    • Attukal Waterfalls
+    
+    • Cheeyappara Waterfalls
+    
+    • Top Station
+    
+    • Marayoor Dolmens
+    
+    • Indo-Swiss Dairy Farm
+    
+    • Kundala Lake
+    
+    • Lockhart Gap
+    
+    • Trekking, cycling, mountain biking, mountaineering, etc.
+
+
+  Best time to visit	:	All throughout the year the charming hills have their own magical bliss throughout the year.
+
+
+  How to reach:
+    
+    • Nearest Airport– Kochi International Airport at a distance of 132 km 
+    
+    • Nearest Railway Station– Aluva Railway Station, 120 km away"
+
+    image: "https://static.toiimg.com/photo/msid-85515152,width-96,height-65.cms"
+    
+  utter_get_attractions_Kochi:
+  - text: "Best Tourist Attractions in Kochi
+  
+    • Fort Kochi, one of oldest heritage sites in Kerala
+    
+    • Vypeen Island Zone
+    
+    • Paradesi Synagogue, ancient place of worship for Jews
+    
+    • The beautiful stretch of Marine Drive overlooking the Arabian Sea
+    
+    • Santa Cruz Basilica
+    
+    • Chinese Fishing Nets
+    
+    • Mattancherry Palace also known as Dutch Palace
+    
+    • Kerala Folklore Museum
+    
+    • Vallarpadam Church
+    
+    • Museum of Kerala History
+    
+    • Kerala Kathakali Centre
+    
+    • Mangalavanam Bird Sanctuary
+    
+    • Cochin Port Maritime Heritage Museum
+    
+    • Bastion Bungalow
+
+      
+Best time to visit	:	August to February, while the weather is pleasant
+
+
+How to reach
+
+    • Nearest Airport– Kochi International Airport, 12 km from the city center.
+      
+    • Nearest Railway Station– Ernakulam Railway Station in the city "
+
+    image: "https://www.lifeberrys.com/img/article/cochin-tourism-1623851853-lb.jpg"
+
+  utter_get_attractions_Wayanad:
+  - text: "Best Tourist Attractions in Wayanad
+
+    • Wayanad wildlife sanctuary
+      
+    • Chembra peak, one of the highest peaks in the region
+      
+    • Heart-shaped lake, enroute the trek to Chembra Peak
+      
+    • Meenmutty Falls
+      
+    • Ayurveda Yoga Villa
+      
+    • Edakkal caves are pre-historic caves that are one of the oldest in the world
+      
+    • Kuruwadeep, an island on the Kabini River, is also a popular eco-spot
+      
+    • Banasura Sagar Dam
+      
+    • Wayanad Heritage Museum
+      
+    • Kanthapara Waterfalls
+      
+    • Karapuzha Dam
+      
+    • Muthanga Wildlife Safari
+      
+    • Grassroots for a true treehouse stay
+
+      
+Best time to visit	:	October to May
+
+
+How to reach:
+
+    • Nearest airport– Kozhikode Airport, 100km
+
+    • Nearest Railway Station– Kozhikode Railway Station, 110 km"
+
+    image: "https://i.ytimg.com/vi/fwxmIydphW8/maxresdefault.jpg"
+
+  utter_get_attractions_Vagamon:
+  - text: "Best Tourist Attractions in Vagamon
+
+    • The breathtaking Vagamon Hill Town.
+      
+    • Amusing Vagamon Pine Forest.
+      
+    • Kurisumala.
+      
+    • The popular Meenachil River.
+      
+    • Pattumalai Church.
+      
+    • Illikal Peak.
+      
+    • Maramala Waterfall.
+      
+    • The meadows of Barren Hills
+      
+    • Vagamon Lake
+      
+    • Idukki Dam.
+
+      
+Best time to visit	:	Though people visit Vagamon throughout the year, it is better to avoid the monsoons
+
+
+How to reach
+
+    • Nearest Airport – Cochin Airport (75 km) (approx.)
+      
+    • Nearest Railway Station – Kuttikanam (22 km) (approx.)"
+    image: "https://www.chillaxvagamon.com/wp-content/uploads/2022/06/mottakunu.jpg"
+
+  utter_get_attractions_Kovalam:
+  - text: "Tourist Attractions at Kovalam Beach
+
+    • Lighthouse beach with the ancient lighthouse
+      
+    • Hawah beach
+      
+    • Samudra Beach
+      
+    • Karamani River
+      
+    • Vellayani Lake
+      
+    • Halcyon Castle
+      
+    • Valiyathura Pier
+      
+    • Vizhinjam Village
+
+      
+Best time to visit	:	August to February
+
+
+How to reach
+
+    • Nearest Airport– Trivandrum International Airport, 25 km away.
+
+    • Nearest Railway Station– Trivandrum Railway Station, almost at a distance of 25 km."
+    image: "https://img.traveltriangle.com/blog/wp-content/uploads/2017/04/ss-220517-A-shot-of-the-swimming-pool-by-the-sea-at-Niraamaya-Retreat-in-Kovalam.jpg"
+  utter_get_attractions_Idukki:
+  - text: "Tourist Attractions at Idukki
+
+    • Kalvari Mount
+    
+    • Idukki Dam 
+    
+    • Anayirankal Dam Reservoir 
+    
+    • Chathurangapara View Point 
+    
+    • Meesapulimala 
+    
+    • Ramakkalmedu
+    
+    • Tea Gardens 
+    
+    • Top Station 
+    
+    • Yodha Cultural Village Thekkady 
+    
+    • Elephant Junction "
+    image: "https://www.keralapackage.org/wp-content/uploads/2017/09/idukki-big.jpg"
+  utter_get_attractions_Kozhikode:
+  - text: "Best Tourist Attractions in Kozhikode
+    • Mananchira
+    
+    • Conolly Canal
+    
+    • Hilite Mall
+    
+    • Kappad Beach
+    
+    • Kozhikode Beach
+    
+    • Thusharagiri Waterfalls
+    
+    • Sargaalaya
+    
+    • Payyoli Beach
+    
+    • Kozhippara Falls
+    
+    • Matri Dei Cathedral
+
+      
+Best time to visit	:	August to February is a good time to plan your trip
+
+
+How to reach
+
+    • Nearest Airport– Kozhikode International Airport in the city
+    
+    • Nearest Railway Station– The city is connected with frequent connections at Kozhikode Railway Station"
+    image: "https://www.keralapackage.org/wp-content/uploads/2017/08/Calicut-big.jpg"
+
+  utter_get_attractions_Thekkady:
+  - text: "Best Tourist Attractions in Thekkady
+  
+    • Wildlife safari on the top of elephants as well as on jeep
+    
+    • A boat safari on the Periyar Lake aboard a bamboo raft
+    
+    • Jungle patrolling and nature walks
+    
+    • Visit spice plantations of Thekkady
+    
+    • Stay at homestays and eco-friendly resorts.
+      
+Best time to visit	:T	hroughout the year, the weather conditions are perfect for visiting this part of Kerala
+
+How to reach
+
+    • Nearest Airport– Kochi International Airport, 160 km away
+    
+    • Nearest Railway Station– Kottayam Railway Station at a distance of 114 km"
+    image: "https://www.thekkady.com/files/menuboxes/4233465548.jpg"
+
+
+  utter_get_attractions_Varkala:
+
+  - text: "Tourist Attractions at Varkala Beach
+  
+    • A hot spring with medicinal properties
+    
+    • Papanasam beach
+    
+    • Janardhana Swamy Temple
+    
+    • Seafood restaurants
+    
+    • Ayurvedic beach centers
+    
+    • Sivagiri Mutt
+    
+    • Anchengo Fort & Lighthouse
+      
+
+Best time to visit	:	October to February, while monsoon is the perfect time to stay at one of the Ayurvedic resorts in India
+
+How to reach
+
+    • Nearest Airport– Trivandrum International Airport, 44 km away.
+    
+    • Nearest Railway Station– Varkala Railway Station in the city. Also close by is Kollam railway station"
+    image: "https://www.bluebirdtravels.in/wp-content/uploads/varkala/kerala/Places-to-Visit-in-Varkala-1200x900-cropped.jpg"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+
+  utter_travel_agency:
+    - text: "For further details you can contact our travel agency.
+
+            Contact number is 9999999999.
+
+            You can register by giving your name phone number and email id.
+      
+            You can pay using Payment wallets, Net Banking."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

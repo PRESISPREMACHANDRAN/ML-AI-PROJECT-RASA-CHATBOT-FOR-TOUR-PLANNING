@@ -1,0 +1,23 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a tourbot, by kerala travel agency.For further details contact our travel agency' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Say 'It is my Pleasure to help you' anytime the user says Thankyou
+  steps:
+  - intent: mood_Thankyou
+  - action: utter_pleasure
+
+- rule: Say 'Thank you for chat with me.Have a great day' anytime the user says deny
+  steps:
+  - intent: deny
+  - action: utter_goodbye

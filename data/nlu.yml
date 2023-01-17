@@ -1,0 +1,284 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - morning
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - goodafternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - ok
+    - goodbye
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - no thanks
+    - i don't want your help
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you?
+    - How can you help me?
+
+- intent: how_explore
+  examples: |
+    - ok.how can i explore kerala
+    - can you help me?
+    - i am interesed
+    - i will
+
+- intent: mood_Thankyou
+  examples: |
+    - Thanks
+    - Thank you
+    - Thankyou
+    - Thanking you
+    - Good job
+
+
+- intent: tourist_place
+  examples: |
+    - Which are the best tourist places in kerala
+    - Which are the best tourist spots in kerala
+    - I want to know about tourist places in kerala
+    - can you tell about tourist places in kerala
+    - What are the places to visit in kerala?
+    - Top 5 places to visit in kerala
+    - how should i spent my vacation  
+    - Recommend some place to visit
+    - list out major attraction for kerala
+    - Best place to relax in holiday
+    - Tourist Attractions in Kerala that You Must Visit
+    - places for ride on holiday
+    - Best Places for trip in Kerala in holiday time
+    - Locations in kerala
+    - Chilling area 
+    - location for intiate wedding
+    - photography location
+    - best places for traveling and explore
+
+- intent: Tour_Package
+  examples: |
+    - What are the packages available?
+    - Tour packages in your agency
+    - Available tourist packages
+    - Cost details for stay
+    - Price for each places
+    - Charge for each places
+    - Rate of packages
+    - How much is the rate
+    - How much is the Price
+    - How much money to be spent?
+    - Cheap packages
+
+
+
+- intent: tourist_package_head
+  examples: |
+    - which are the best tourist packages that you providing for [alappuzha](place)?
+    - which are the best tourist packages that you providing for [munnar](place)?
+    - which are the best tourist packages that you providing for [kochi](place)?
+    - which are the best tourist packages that you providing for [wayanad](place)?
+    - which are the best tourist packages that you providing for [vagamon](place)?
+    - which are the best tourist packages that you providing for [kovalam](place)?
+    - which are the best tourist packages that you providing for [kozhikode](place)?
+    - which are the best tourist packages that you providing for [thekkady](place)?
+    - which are the best tourist packages that you providing for [varkala](place)?
+    - which are the best tourist packages that you providing for [idukki](place)?
+
+- intent: get_attractions_Alappuzha
+  examples: |
+    - What are the top tourist attractions in Alappuzha?
+    - Can you tell me what to see in Alappuzha?
+    - I want to know the must-see places in Alappuzha
+    - What are the popular landmarks in Alappuzha?
+    - Can you recommend some things to do in Alappuzha?
+
+- intent: get_attractions_Munnar
+  examples: |
+    - What are the top tourist attractions in Munnar?
+    - Can you tell me what to see in Munnar?
+    - I want to know the must-see places in Munnar
+    - What are the popular landmarks in Munnar?
+    - Can you recommend some things to do in Munnar?
+    - What are the top tourist attractions in Munnar?
+    - Can you tell me what to see in Munnar?
+    - I want to know the must-see places in  Munnar
+    - What are the popular landmarks in Munnar?
+    
+- intent: get_attractions_Kochi
+  examples: |
+    - What are the top tourist attractions in Kochi?
+    - Can you tell me what to see in Kochi?
+    - I want to know the must-see places in Kochi
+    - What are the popular landmarks in Kochi?
+    - Can you recommend some things to do in Kochi?
+    - What are the top tourist attractions in Kochi?
+    - Can you tell me what to see in Kochi?
+    - I want to know the must-see places in  Kochi
+    - What are the popular landmarks in Kochi?
+
+- intent: get_attractions_Wayanad
+  examples: |
+    - What are the top tourist attractions in Wayanad?
+    - Can you tell me what to see in Wayanad?
+    - I want to know the must-see places in Wayanad
+    - What are the popular landmarks in Wayanad?
+    - Can you recommend some things to do in Wayanad?
+    - What are the top tourist attractions in Wayanad?
+    - Can you tell me what to see in Wayanad?
+    - I want to know the must-see places in  Wayanad
+    - What are the popular landmarks in Wayanad?
+    
+- intent: get_attractions_Vagamon
+  examples: |
+    - What are the top tourist attractions in Vagamon?
+    - Can you tell me what to see in Vagamon?
+    - I want to know the must-see places in Vagamon
+    - What are the popular landmarks in Vagamon?
+    - Can you recommend some things to do in Vagamon?
+    - What are the top tourist attractions in Vagamon?
+    - Can you tell me what to see in Vagamon?
+    - I want to know the must-see places in  Vagamon
+    - What are the popular landmarks in Vagamon?
+    
+- intent: get_attractions_Kovalam
+  examples: |
+    - What are the top tourist attractions in Kovalam?
+    - Can you tell me what to see in Kovalam?
+    - I want to know the must-see places in Kovalam
+    - What are the popular landmarks in Kovalam?
+    - Can you recommend some things to do in Kovalam?
+    - What are the top tourist attractions in Kovalam?
+    - Can you tell me what to see in Kovalam?
+    - I want to know the must-see places in  Kovalam
+    - What are the popular landmarks in Kovalam? 
+
+- intent: get_attractions_Idukki
+  examples: |
+    - What are the top tourist attractions in Idukki?
+    - Can you tell me what to see in Idukki?
+    - I want to know the must-see places in Idukki
+    - What are the popular landmarks in Idukki?
+    - Can you recommend some things to do in Idukki?
+    - What are the top tourist attractions in Idukki?
+    - Can you tell me what to see in Idukki?
+    - I want to know the must-see places in  Idukki
+    - What are the popular landmarks in Idukki?
+
+- intent: get_attractions_Kozhikode
+  examples: |
+    - What are the top tourist attractions in Kozhikode?
+    - Can you tell me what to see in Kozhikode?
+    - I want to know the must-see places in Kozhikode
+    - What are the popular landmarks in Kozhikode?
+    - Can you recommend some things to do in Kozhikode?
+    - What are the top tourist attractions in Kozhikode?
+    - Can you tell me what to see in Kozhikode?
+    - I want to know the must-see places in  Kozhikode
+    - What are the popular landmarks in Kozhikode?
+
+- intent: get_attractions_Thekkady
+  examples: |
+    - What are the top tourist attractions in Thekkady?
+    - Can you tell me what to see in Thekkady?
+    - I want to know the must-see places in Thekkady
+    - What are the popular landmarks in Thekkady?
+    - Can you recommend some things to do in Thekkady?
+    - What are the top tourist attractions in Thekkady?
+    - Can you tell me what to see in Thekkady?
+    - I want to know the must-see places in  Thekkady
+    - What are the popular landmarks in Thekkady?
+
+- intent: get_attractions_Varkala
+  examples: |
+    - What are the top tourist attractions in Varkala?
+    - Can you tell me what to see in Varkala?
+    - I want to know the must-see places in Varkala
+    - What are the popular landmarks in Varkala?
+    - Can you recommend some things to do in Varkala?
+    - What are the top tourist attractions in Varkala?
+    - Can you tell me what to see in Varkala?
+    - I want to know the must-see places in  Varkala
+    - What are the popular landmarks in Varkala?
+
+
+
+
